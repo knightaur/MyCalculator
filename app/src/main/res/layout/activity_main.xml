@@ -137,7 +137,7 @@
                 android:layout_width="wrap_content"
                 android:layout_margin="1dp"
                 android:onClick="btnOnClick"
-                android:layout_height="wrap_content" android:id="@+id/btn." android:background="#FFCACACA"/>
+                android:layout_height="wrap_content" android:id="@+id/btnDot" android:background="#FFCACACA"/>
         <Button
                 android:text="="
                 android:layout_width="wrap_content"

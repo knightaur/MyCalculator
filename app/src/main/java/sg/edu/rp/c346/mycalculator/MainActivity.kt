@@ -156,6 +156,14 @@ class MainActivity : AppCompatActivity() {
                 arrayList1.clear()
                 textView.text = "0"
             }
+            btnDot.id ->{
+                if (textView.text.toString().equals("0") || bool) {
+                    textView.text = "0."
+                    bool = false
+                } else {
+                    textView.text = textView.text.toString() + "."
+                }
+            }
         }
 
     }
